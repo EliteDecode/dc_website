@@ -28,6 +28,17 @@
     <link rel="stylesheet" href="assets/css/responsive.css" />
 
     <style>
+      .footer_logo a img {
+        width: 35%;
+        margin-bottom: 5%;
+      }
+
+      @media (min-width: 0px) and (max-width: 450px) {
+        .footer_logo a img {
+          width: 18% !important;
+        }
+      }
+
       .logo a img {
         width: 55%;
       }
@@ -53,7 +64,24 @@
       </div>
     </div>
     <!-- Preloader Start -->
-
+    <div
+      style="
+        position: fixed;
+        bottom: 70px;
+        right: 32px;
+        z-index: 10000;
+        cursor: pointer;
+      "
+    >
+      <a href="https://wa.me/2349121902398?text=Hi,%20I%20am%20in%20need%20of">
+        <img
+          src="assets/img/whatsapp.png"
+          width="55px"
+          alt=""
+          style="z-index: 10000"
+        />
+      </a>
+    </div>
     <header>
       <!-- Header Start -->
       <div class="header-area header-transparrent">
@@ -330,7 +358,9 @@
                 </div>
                 <div class="service-cap">
                   <h4>
-                    <a href="#">Gain New customers and increase earnings</a>
+                    <a href="#"
+                      >Connect with new customers and increase earnings</a
+                    >
                   </h4>
                   <p>
                     Connect to new potential customers near you and increase
@@ -355,10 +385,10 @@
                   ></span>
                 </div>
                 <div class="service-cap">
-                  <h4><a href="#">Track Deliveries and Payments</a></h4>
+                  <h4><a href="#">Track deliveries and payments</a></h4>
                   <p>
-                    Monitor the logistics of your business and movement of funds
-                    to ensure customers get the best services from you.
+                    Monitor rider/agent performance to ensure they deliver the
+                    best customee service.
                   </p>
                 </div>
               </div>
@@ -481,7 +511,7 @@
               <div class="col-lg-3 col-md-4 col-sm-8">
                 <div class="single-footer-caption mb-30">
                   <!-- logo -->
-                  <div class="footer-logo">
+                  <div class="footer_logo">
                     <a href="index.html"
                       ><img src="assets/img/logo/logo.png" alt="" width="35%"
                     /></a>
@@ -516,7 +546,7 @@
                     <h4>Support</h4>
                     <ul>
                       <li><a href="#">Report a bug</a></li>
-                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="privacy.html">Privacy Policy</a></li>
                       <li><a href="#">Terms & Conditions</a></li>
                       <!-- <li><a href="#">Sitemap</a></li> -->
                       <li><a href="#">FAQs</a></li>

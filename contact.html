@@ -30,6 +30,17 @@
     <link rel="stylesheet" href="assets/css/responsive.css" />
 
     <style>
+      .footer_logo a img {
+        width: 35%;
+        margin-bottom: 5%;
+      }
+
+      @media (min-width: 0px) and (max-width: 450px) {
+        .footer_logo a img {
+          width: 18% !important;
+        }
+      }
+
       .logo a img {
         width: 55%;
       }
@@ -55,7 +66,24 @@
       </div>
     </div>
     <!-- Preloader Start -->
-
+    <div
+      style="
+        position: fixed;
+        bottom: 70px;
+        right: 32px;
+        z-index: 10000;
+        cursor: pointer;
+      "
+    >
+      <a href="https://wa.me/2349121902398?text=Hi,%20I%20am%20in%20need%20of">
+        <img
+          src="assets/img/whatsapp.png"
+          width="55px"
+          alt=""
+          style="z-index: 10000"
+        />
+      </a>
+    </div>
     <header>
       <!-- Header Start -->
       <div class="header-area header-transparrent">
@@ -1769,7 +1797,7 @@
             <div class="media contact-info">
               <span class="contact-info__icon"><i class="ti-tablet"></i></span>
               <div class="media-body">
-                <h3>+2348133080481</h3>
+                <h3>+2349121902398</h3>
                 <p>Mon to Fri 9am to 6pm</p>
               </div>
             </div>
@@ -1795,7 +1823,7 @@
               <div class="col-lg-3 col-md-4 col-sm-8">
                 <div class="single-footer-caption mb-30">
                   <!-- logo -->
-                  <div class="footer-logo">
+                  <div class="footer_logo">
                     <a href="index.html"
                       ><img src="assets/img/logo/logo.png" alt="" width="35%"
                     /></a>
@@ -1830,7 +1858,7 @@
                     <h4>Support</h4>
                     <ul>
                       <li><a href="#">Report a bug</a></li>
-                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="privacy.html">Privacy Policy</a></li>
                       <li><a href="#">Terms & Conditions</a></li>
                       <!-- <li><a href="#">Sitemap</a></li> -->
                       <li><a href="#">FAQs</a></li>
