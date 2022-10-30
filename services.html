@@ -28,14 +28,55 @@
     <link rel="stylesheet" href="assets/css/responsive.css" />
 
     <style>
+      .merchants {
+        background: url("./assets/img/hero/mer4.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        background-color: rgba(0, 0, 0, 0.45);
+        background-blend-mode: overlay;
+        margin: 0% 0%;
+        padding: 4%;
+      }
+
+      .customers {
+        background: url("./assets/img/hero/recievepackag1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        background-color: rgba(0, 0, 0, 0.45);
+        background-blend-mode: overlay;
+        padding: 4%;
+      }
+
+      .logistics {
+        background: url("./assets/img/hero/guyphone.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        background-color: rgba(0, 0, 0, 0.45);
+        background-blend-mode: overlay;
+        padding: 4%;
+      }
       .footer_logo a img {
         width: 35%;
         margin-bottom: 5%;
       }
 
-      @media (min-width: 0px) and (max-width: 450px) {
+      @media (min-width: 0px) and (max-width: 575px) {
         .footer_logo a img {
           width: 18% !important;
+        }
+
+        .merchants {
+          background: url("./assets/img/hero/mer4.jpg");
+          background-size: contain !important;
+          background-repeat: no-repeat;
+          background-position: -900px 0px !important;
+          background-color: rgba(0, 0, 0, 0.45);
+          background-blend-mode: overlay;
+          margin: 0% 0%;
+          padding: 4%;
         }
       }
 
@@ -125,89 +166,113 @@
 
     <main>
       <!-- Services Area Start -->
-      <section class="service-area services-padding" style="margin-top: -10%">
-        <div class="container">
-          <!-- Section Tittle -->
-          <div class="row d-flex justify-content-center">
-            <div class="col-lg-6">
-              <div class="section-tittle text-center">
-                <h2>For Customers who love reliable services</h2>
-              </div>
-            </div>
-          </div>
-          <!-- Section caption -->
-          <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-6">
-              <div class="services-caption text-center mb-30">
-                <div class="service-icon">
-                  <span
-                    class="flaticon-businessman"
-                    style="
-                      background: rgb(46, 49, 146);
-                      background: linear-gradient(
-                        90deg,
-                        rgba(46, 49, 146, 1) 0%,
-                        rgba(110, 78, 140, 1) 100%
-                      );
-                    "
-                  ></span>
-                </div>
-                <div class="service-cap">
-                  <h4><a href="#">Tracking</a></h4>
-                  <p>
-                    Track the movement of your packages from the point of
-                    shipment until point of delivery.
-                  </p>
+      <section class="service-area services-padding" style="margin-top: -15%">
+        <div class="customers">
+          <div class="container">
+            <!-- Section Tittle -->
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-6">
+                <div class="section-tittle text-center">
+                  <h2 style="color: #fff" class="pt-5">
+                    For Customers who love reliable services
+                  </h2>
                 </div>
               </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-6">
-              <div class="services-caption active text-center mb-30">
-                <div class="service-icon">
-                  <span
-                    class="flaticon-pay"
-                    style="
-                      background: rgb(46, 49, 146);
-                      background: linear-gradient(
-                        90deg,
-                        rgba(46, 49, 146, 1) 0%,
-                        rgba(110, 78, 140, 1) 100%
-                      );
-                    "
-                  ></span>
-                </div>
-                <div class="service-cap">
-                  <h4>
-                    <a href="#">Find the best delivery providers and prices</a>
-                  </h4>
-                  <p>
-                    Get products delivered efficiently to you from trusted
-                    riders, at an affordable price.
-                  </p>
+            <!-- Section caption -->
+            <div class="row">
+              <div class="col-xl-4 col-lg-4 col-md-6">
+                <div
+                  class="services-caption text-center"
+                  style="
+                    background-color: rgba(255, 255, 255, 0);
+                    border: 2px solid rgba(255, 255, 255, 0);
+                  "
+                >
+                  <div class="service-icon">
+                    <span
+                      class="flaticon-businessman"
+                      style="
+                        background: rgb(46, 49, 146);
+                        background: linear-gradient(
+                          90deg,
+                          rgba(46, 49, 146, 1) 0%,
+                          rgba(110, 78, 140, 1) 100%
+                        );
+                      "
+                    ></span>
+                  </div>
+                  <div class="service-cap">
+                    <h4><a href="#" style="color: #fff">Tracking</a></h4>
+                    <p style="color: #fff" class="w-100">
+                      Track the movement of your packages from the point of
+                      shipment until point of delivery.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-6">
-              <div class="services-caption text-center mb-30">
-                <div class="service-icon">
-                  <span
-                    class="flaticon-plane"
-                    style="
-                      background: rgb(46, 49, 146);
-                      background: linear-gradient(
-                        90deg,
-                        rgba(46, 49, 146, 1) 0%,
-                        rgba(110, 78, 140, 1) 100%
-                      );
-                    "
-                  ></span>
+              <div class="col-xl-4 col-lg-4 col-md-6">
+                <div
+                  class="services-caption active text-center"
+                  style="
+                    background-color: rgba(255, 255, 255, 0);
+                    border: 2px solid rgba(255, 255, 255, 0);
+                  "
+                >
+                  <div class="service-icon">
+                    <span
+                      class="flaticon-pay"
+                      style="
+                        background: rgb(46, 49, 146);
+                        background: linear-gradient(
+                          90deg,
+                          rgba(46, 49, 146, 1) 0%,
+                          rgba(110, 78, 140, 1) 100%
+                        );
+                      "
+                    ></span>
+                  </div>
+                  <div class="service-cap">
+                    <h4 style="color: #fff">
+                      <a href="#"
+                        >Find the best delivery providers and prices</a
+                      >
+                    </h4>
+                    <p style="color: #fff">
+                      Get products delivered efficiently to you from trusted
+                      riders, at an affordable price.
+                    </p>
+                  </div>
                 </div>
-                <div class="service-cap">
-                  <h4><a href="#">Quick Messaging</a></h4>
-                  <p>
-                    Easily communicate with riders to ensure quality in services
-                    provided to you.
-                  </p>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6">
+                <div
+                  class="services-caption text-center"
+                  style="
+                    background-color: rgba(255, 255, 255, 0);
+                    border: 2px solid rgba(255, 255, 255, 0);
+                  "
+                >
+                  <div class="service-icon">
+                    <span
+                      class="flaticon-plane"
+                      style="
+                        background: rgb(46, 49, 146);
+                        background: linear-gradient(
+                          90deg,
+                          rgba(46, 49, 146, 1) 0%,
+                          rgba(110, 78, 140, 1) 100%
+                        );
+                      "
+                    ></span>
+                  </div>
+                  <div class="service-cap">
+                    <h4 style="color: #fff"><a href="#">Quick Messaging</a></h4>
+                    <p style="color: #fff">
+                      Easily communicate with riders to ensure quality in
+                      services provided to you.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -215,181 +280,242 @@
         </div>
 
         <!-- Provider Services start -->
-        <div class="container">
-          <!-- Section Tittle -->
-          <div class="row d-flex justify-content-center">
-            <div class="col-lg-6">
-              <div class="section-tittle text-center">
-                <h2>For Merchants who go the extra mile for their customers</h2>
-              </div>
-            </div>
-          </div>
-          <!-- Section caption -->
-          <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-6">
-              <div class="services-caption text-center mb-30">
-                <div class="service-icon">
-                  <span
-                    class="flaticon-businessman"
-                    style="
-                      background: rgb(46, 49, 146);
-                      background: linear-gradient(
-                        90deg,
-                        rgba(46, 49, 146, 1) 0%,
-                        rgba(110, 78, 140, 1) 100%
-                      );
-                    "
-                  ></span>
-                </div>
-                <div class="service-cap">
-                  <h4>
-                    <a href="#"
-                      >Sell more and stand apart from the competition</a
-                    >
-                  </h4>
-                  <p>
-                    Hit goals and drive up sales. Automate your business, push
-                    your products to market faster. Be ahead of your competition
-                  </p>
+        <div class="merchants">
+          <div class="container">
+            <!-- Section Tittle -->
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-6">
+                <div class="section-tittle text-center">
+                  <h2 style="color: #fff" class="pt-5">
+                    For Merchants who go the extra mile for their customers
+                  </h2>
                 </div>
               </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-6">
-              <div class="services-caption active text-center mb-30">
-                <div class="service-icon">
-                  <span
-                    class="flaticon-pay"
-                    style="
-                      background: rgb(46, 49, 146);
-                      background: linear-gradient(
-                        90deg,
-                        rgba(46, 49, 146, 1) 0%,
-                        rgba(110, 78, 140, 1) 100%
-                      );
-                    "
-                  ></span>
-                </div>
-                <div class="service-cap">
-                  <h4><a href="#">Get insight into new opportunities</a></h4>
-                  <p>
-                    Opportunities are waiting for you. Take advantage of our
-                    available tools to see what is new for you and how you can
-                    profit from them.
-                  </p>
+            <!-- Section caption -->
+            <div class="row">
+              <div class="col-xl-4 col-lg-4 col-md-6">
+                <div
+                  class="services-caption text-center"
+                  style="
+                    background-color: rgba(255, 255, 255, 0);
+                    border: 2px solid rgba(255, 255, 255, 0);
+                  "
+                >
+                  <div class="service-icon">
+                    <span
+                      class="flaticon-businessman"
+                      style="
+                        background: rgb(46, 49, 146);
+                        background: linear-gradient(
+                          90deg,
+                          rgba(46, 49, 146, 1) 0%,
+                          rgba(110, 78, 140, 1) 100%
+                        );
+                      "
+                    ></span>
+                  </div>
+                  <div class="service-cap">
+                    <h4>
+                      <a href="#" style="color: #fff"
+                        >Sell more and stand apart from the competition</a
+                      >
+                    </h4>
+                    <p style="color: #ffffff">
+                      Hit goals and drive up sales. Automate your business, push
+                      your products to market faster. Be ahead of your
+                      competition
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-6">
-              <div class="services-caption text-center mb-30">
-                <div class="service-icon">
-                  <span
-                    class="flaticon-plane"
-                    style="
-                      background: rgb(46, 49, 146);
-                      background: linear-gradient(
-                        90deg,
-                        rgba(46, 49, 146, 1) 0%,
-                        rgba(110, 78, 140, 1) 100%
-                      );
-                    "
-                  ></span>
+              <div class="col-xl-4 col-lg-4 col-md-6">
+                <div
+                  class="services-caption active text-center"
+                  style="
+                    background-color: rgba(255, 255, 255, 0);
+                    border: 2px solid rgba(255, 255, 255, 0);
+                  "
+                >
+                  <div class="service-icon">
+                    <span
+                      class="flaticon-pay"
+                      style="
+                        background: rgb(46, 49, 146);
+                        background: linear-gradient(
+                          90deg,
+                          rgba(46, 49, 146, 1) 0%,
+                          rgba(110, 78, 140, 1) 100%
+                        );
+                      "
+                    ></span>
+                  </div>
+                  <div class="service-cap">
+                    <h4>
+                      <a href="#" style="color: #fff"
+                        >Get insight into new opportunities</a
+                      >
+                    </h4>
+                    <p style="color: #fff">
+                      Opportunities are waiting for you. Take advantage of our
+                      available tools to see what is new for you and how you can
+                      profit from them.
+                    </p>
+                  </div>
                 </div>
-                <div class="service-cap">
-                  <h4><a href="#">Build a loyal customer base</a></h4>
-                  <p>
-                    Keep customers coming back for more, when you use our
-                    platform to run your business.
-                  </p>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6">
+                <div
+                  class="services-caption text-center"
+                  style="
+                    background-color: rgba(255, 255, 255, 0);
+                    border: 2px solid rgba(255, 255, 255, 0);
+                  "
+                >
+                  <div class="service-icon">
+                    <span
+                      class="flaticon-plane"
+                      style="
+                        background: rgb(46, 49, 146);
+                        background: linear-gradient(
+                          90deg,
+                          rgba(46, 49, 146, 1) 0%,
+                          rgba(110, 78, 140, 1) 100%
+                        );
+                      "
+                    ></span>
+                  </div>
+                  <div class="service-cap">
+                    <h4>
+                      <a href="#" style="color: #fff"
+                        >Build a loyal customer base</a
+                      >
+                    </h4>
+                    <p style="color: #fff">
+                      Keep customers coming back for more, when you use our
+                      platform to run your business.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="container">
-          <!-- Section Tittle -->
-          <div class="row d-flex justify-content-center">
-            <div class="col-lg-6">
-              <div class="section-tittle text-center">
-                <h2>For Smart Logistic Companies</h2>
-              </div>
-            </div>
-          </div>
-          <!-- Section caption -->
-          <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-6">
-              <div class="services-caption text-center mb-30">
-                <div class="service-icon">
-                  <span
-                    class="flaticon-businessman"
-                    style="
-                      background: rgb(46, 49, 146);
-                      background: linear-gradient(
-                        90deg,
-                        rgba(46, 49, 146, 1) 0%,
-                        rgba(110, 78, 140, 1) 100%
-                      );
-                    "
-                  ></span>
-                </div>
-                <div class="service-cap">
-                  <h4><a href="#">Manage from one Location</a></h4>
-                  <p>
-                    Stay on top of all business operations and manage your
-                    employees with ease from within the app.
-                  </p>
+        <div class="logistics">
+          <div class="container">
+            <!-- Section Tittle -->
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-6">
+                <div class="section-tittle text-center">
+                  <h2 style="color: #fff" class="pt-5">
+                    For Smart Logistic Companies
+                  </h2>
                 </div>
               </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-6">
-              <div class="services-caption active text-center mb-30">
-                <div class="service-icon">
-                  <span
-                    class="flaticon-pay"
-                    style="
-                      background: rgb(46, 49, 146);
-                      background: linear-gradient(
-                        90deg,
-                        rgba(46, 49, 146, 1) 0%,
-                        rgba(110, 78, 140, 1) 100%
-                      );
-                    "
-                  ></span>
-                </div>
-                <div class="service-cap">
-                  <h4>
-                    <a href="#"
-                      >Connect with new customers and increase earnings</a
-                    >
-                  </h4>
-                  <p>
-                    Connect to new potential customers near you and increase
-                    earnings of your business.
-                  </p>
+            <!-- Section caption -->
+            <div class="row">
+              <div class="col-xl-4 col-lg-4 col-md-6">
+                <div
+                  class="services-caption text-center"
+                  style="
+                    background-color: rgba(255, 255, 255, 0);
+                    border: 2px solid rgba(255, 255, 255, 0);
+                  "
+                >
+                  <div class="service-icon">
+                    <span
+                      class="flaticon-businessman"
+                      style="
+                        background: rgb(46, 49, 146);
+                        background: linear-gradient(
+                          90deg,
+                          rgba(46, 49, 146, 1) 0%,
+                          rgba(110, 78, 140, 1) 100%
+                        );
+                      "
+                    ></span>
+                  </div>
+                  <div class="service-cap">
+                    <h4>
+                      <a href="#" style="color: #fff"
+                        >Manage from one Location</a
+                      >
+                    </h4>
+                    <p style="color: #fff">
+                      Stay on top of all business operations and manage your
+                      employees with ease from within the app.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-6">
-              <div class="services-caption text-center mb-30">
-                <div class="service-icon">
-                  <span
-                    class="flaticon-plane"
-                    style="
-                      background: rgb(46, 49, 146);
-                      background: linear-gradient(
-                        90deg,
-                        rgba(46, 49, 146, 1) 0%,
-                        rgba(110, 78, 140, 1) 100%
-                      );
-                    "
-                  ></span>
+              <div class="col-xl-4 col-lg-4 col-md-6">
+                <div
+                  class="services-caption active text-center"
+                  style="
+                    background-color: rgba(255, 255, 255, 0);
+                    border: 2px solid rgba(255, 255, 255, 0);
+                  "
+                >
+                  <div class="service-icon">
+                    <span
+                      class="flaticon-pay"
+                      style="
+                        background: rgb(46, 49, 146);
+                        background: linear-gradient(
+                          90deg,
+                          rgba(46, 49, 146, 1) 0%,
+                          rgba(110, 78, 140, 1) 100%
+                        );
+                      "
+                    ></span>
+                  </div>
+                  <div class="service-cap">
+                    <h4>
+                      <a href="#" style="color: #fff"
+                        >Connect with new customers and increase earnings</a
+                      >
+                    </h4>
+                    <p style="color: #fff">
+                      Connect to new potential customers near you and increase
+                      earnings of your business.
+                    </p>
+                  </div>
                 </div>
-                <div class="service-cap">
-                  <h4><a href="#">Track deliveries and payments</a></h4>
-                  <p>
-                    Monitor rider/agent performance to ensure they deliver the
-                    best customer service.
-                  </p>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6">
+                <div
+                  class="services-caption text-center"
+                  style="
+                    background-color: rgba(255, 255, 255, 0);
+                    border: 2px solid rgba(255, 255, 255, 0);
+                  "
+                >
+                  <div class="service-icon">
+                    <span
+                      class="flaticon-plane"
+                      style="
+                        background: rgb(46, 49, 146);
+                        background: linear-gradient(
+                          90deg,
+                          rgba(46, 49, 146, 1) 0%,
+                          rgba(110, 78, 140, 1) 100%
+                        );
+                      "
+                    ></span>
+                  </div>
+                  <div class="service-cap">
+                    <h4>
+                      <a href="#" style="color: #fff"
+                        >Track deliveries and payments</a
+                      >
+                    </h4>
+                    <p style="color: #fff">
+                      Monitor rider/agent performance to ensure they deliver the
+                      best customer service.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -409,6 +535,7 @@
             rgba(46, 49, 146, 1) 0%,
             rgba(110, 78, 140, 1) 100%
           );
+          margin-top: -15%;
         "
       >
         <div class="container">
@@ -504,12 +631,12 @@
     </main>
     <footer>
       <!-- Footer Start-->
-      <div class="footer-main">
+      <div class="footer-main" style="margin-top: -10%">
         <div class="footer-area footer-padding">
           <div class="container">
             <div class="row justify-content-between">
               <div class="col-lg-3 col-md-4 col-sm-8">
-                <div class="single-footer-caption mb-30">
+                <div class="single-footer-caption">
                   <!-- logo -->
                   <div class="footer_logo">
                     <a href="index.html"

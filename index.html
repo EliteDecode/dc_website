@@ -31,8 +31,19 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 0px -20px;
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0);
         background-blend-mode: overlay;
+      }
+
+      @media (min-width: 0px) and (max-width: 575px) {
+        .merchants {
+          background: url("./assets/img/hero/mer4.jpg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: -100px 0px;
+          background-color: rgba(0, 0, 0, 0.6);
+          background-blend-mode: overlay;
+        }
       }
       .footer_logo a img {
         width: 35%;
@@ -479,54 +490,7 @@
           </div>
         </div>
       </section>
-      <!--Merchant-->
-      <div class="merchants" style="padding: 9% 0%">
-        <div class="container">
-          <div class="merchant">
-            <div class="section-tittle">
-              <h2 style="color: #fff">
-                Start your journey <br />
-                today as a Merchant with <br />
-                Delivery Connect
-              </h2>
-            </div>
-            <div class="slider-btns">
-              <!-- Hero-btn -->
-              <a
-                data-animation="fadeInLeft"
-                data-delay="1.0s"
-                href="industries.html"
-                class="btn radius-btn"
-                style="
-                  background: rgb(46, 49, 146);
-                  background: linear-gradient(
-                    90deg,
-                    rgba(46, 49, 146, 1) 0%,
-                    rgba(110, 78, 140, 1) 100%
-                  );
-                "
-                >Start Here</a
-              >
-              <!-- Video Btn -->
-              <a
-                data-animation="fadeInRight"
-                data-delay="1.0s"
-                class="popup-video video-btn ani-btn"
-                href="https://www.youtube.com/watch?v=1aP-TXUpNoU"
-                style="
-                  background: rgb(46, 49, 146);
-                  background: linear-gradient(
-                    90deg,
-                    rgba(46, 49, 146, 1) 0%,
-                    rgba(110, 78, 140, 1) 100%
-                  );
-                "
-              ></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--end-->
+
       <section class="best-features-area section-padd4" style="margin-top: 0%">
         <div class="container">
           <div class="row justify-content-end">
