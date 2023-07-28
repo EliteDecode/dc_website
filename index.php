@@ -23,30 +23,38 @@ include('includes/header.php')
                                     Introducing Delivery Connect, the solution that helps you
                                     select the best logistics company and the best price in
                                     your area backed with courteous customer support.
+
+                                    <br />
+                                    Click the buttons below to become a Delivery Connect Merchant/Seller or Logistics
+                                    Provider.
                                 </p>
                                 <!-- Slider btn -->
+
                                 <div class="slider-btns">
-                                    <!-- Hero-btn -->
-                                    <a data-animation="fadeInLeft" data-delay="1.0s" href="industries.html"
-                                        class="btn radius-btn" style="
+                                    <a data-animation="fadeInLeft" data-delay="1.0s"
+                                        href="http://provider.delivery-connect.com" class="btn radius-btn" style="
                           background: rgb(46, 49, 146);
                           background: linear-gradient(
                             90deg,
                             rgba(46, 49, 146, 1) 0%,
                             rgba(110, 78, 140, 1) 100%
                           );
-                        ">Download</a>
+                        ">Become a Logistics Provider</a>
                                     <!-- Video Btn -->
-                                    <a data-animation="fadeInRight" data-delay="1.0s"
-                                        class="popup-video video-btn ani-btn"
-                                        href="https://www.youtube.com/watch?v=1aP-TXUpNoU" style="
+                                </div>
+                                <div class="slider-btns mt-3">
+                                    <!-- Hero-btn -->
+                                    <a data-animation="fadeInLeft" data-delay="1.0s"
+                                        href="http://seller.delivery-connect.com" class="btn radius-btn" style="
                           background: rgb(46, 49, 146);
                           background: linear-gradient(
                             90deg,
                             rgba(46, 49, 146, 1) 0%,
                             rgba(110, 78, 140, 1) 100%
                           );
-                        "><i class="fas fa-play"></i></a>
+                        ">Become a Merchant/Seller </a>
+
+
                                 </div>
                             </div>
                         </div>
@@ -72,25 +80,34 @@ include('includes/header.php')
                                 <p data-animation="fadeInUp" data-delay=".8s">
                                     Introducing Delivery Connect, the solution that helps you
                                     select the best logistics company and the best price in
-                                    your area backed with courteous customer support.
+                                    your area backed with courteous customer support
                                 </p>
                                 <!-- Slider btn -->
                                 <div class="slider-btns">
-                                    <!-- Hero-btn -->
-                                    <a data-animation="fadeInLeft" data-delay="1.0s" href="industries.html"
-                                        class="btn radius-btn" style="
+                                    <a data-animation="fadeInLeft" data-delay="1.0s"
+                                        href="http://provider.delivery-connect.com" class="btn radius-btn" style="
                           background: rgb(46, 49, 146);
-                          background: radial-gradient(
-                            circle,
+                          background: linear-gradient(
+                            90deg,
                             rgba(46, 49, 146, 1) 0%,
                             rgba(110, 78, 140, 1) 100%
                           );
-                        ">Download</a>
+                        ">Become a Logistics Provider</a>
                                     <!-- Video Btn -->
-                                    <a data-animation="fadeInRight" data-delay="1.0s"
-                                        class="popup-video video-btn ani-btn"
-                                        href="https://www.youtube.com/watch?v=1aP-TXUpNoU"><i
-                                            class="fas fa-play"></i></a>
+                                </div>
+                                <div class="slider-btns mt-3">
+                                    <!-- Hero-btn -->
+                                    <a data-animation="fadeInLeft" data-delay="1.0s"
+                                        href="http://seller.delivery-connect.com" class="btn radius-btn" style="
+                          background: rgb(46, 49, 146);
+                          background: linear-gradient(
+                            90deg,
+                            rgba(46, 49, 146, 1) 0%,
+                            rgba(110, 78, 140, 1) 100%
+                          );
+                        ">Become a Merchant/Seller </a>
+
+
                                 </div>
                             </div>
                         </div>
@@ -155,7 +172,7 @@ include('includes/header.php')
                                     <h3>Deliveries on your terms</h3>
                                     <p>
                                         Find the best delivery providers and the best prices
-                                        that fit your budget.
+                                        that fit your budget
                                     </p>
                                 </div>
                             </div>
@@ -175,8 +192,8 @@ include('includes/header.php')
                                 <div class="features-caption">
                                     <h3>Customer Support</h3>
                                     <p>
-                                        A personalized, competent, convenient, and proactive
-                                        customer support system to solve issues of every user.
+                                        A personalized, competent, and proactive
+                                        customer support system working for every customer
                                     </p>
                                 </div>
                             </div>
@@ -197,7 +214,7 @@ include('includes/header.php')
                                     <h3>Quality Service</h3>
                                     <p>
                                         Rate riders to ensure only the best quality is being
-                                        provided for you and for other customer.
+                                        provided to you and other customers
                                     </p>
                                 </div>
                             </div>
@@ -242,7 +259,7 @@ include('includes/header.php')
                             <h4><a href="#">Easily Manage</a></h4>
                             <p>
                                 Manage your operations with ease from any location from
-                                within Delivery Connect.
+                                within Delivery Connect
                             </p>
                         </div>
                     </div>
@@ -263,7 +280,7 @@ include('includes/header.php')
                             <h4><a href="#">Scalability</a></h4>
                             <p>
                                 Gain new customers and increase your earnings when you use
-                                Delivery Connect to run your business.
+                                Delivery Connect to run your business
                             </p>
                         </div>
                     </div>
@@ -284,7 +301,7 @@ include('includes/header.php')
                             <h4><a href="#">Live Tracking.</a></h4>
                             <p>
                                 Track your package in real time, from the point of shipment
-                                up until the point of delivery.
+                                up until the point of delivery
                             </p>
                         </div>
                     </div>
@@ -325,7 +342,7 @@ include('includes/header.php')
                                     <h3>Sell more and stand apart from the competition</h3>
                                     <p>
                                         Hit goals and drive up sales. Automate your business,
-                                        push your products to market faster. Be ahead of your
+                                        push your products to market faster. Get ahead of your
                                         competition
                                     </p>
                                 </div>
@@ -348,7 +365,7 @@ include('includes/header.php')
                                     <p>
                                         Opportunities are waiting for you. Take advantage of our
                                         available tools to see what is new for you and how you
-                                        can profit from them.
+                                        can profit from them
                                     </p>
                                 </div>
                             </div>
@@ -368,8 +385,8 @@ include('includes/header.php')
                                 <div class="features-caption">
                                     <h3>Build a loyal customer base</h3>
                                     <p>
-                                        Keep customers coming back for more, when you use our
-                                        platform to run your business.
+                                        Know your customers and enjoy repeat business, when you use our platform to
+                                        run your business
                                     </p>
                                 </div>
                             </div>
@@ -388,7 +405,7 @@ include('includes/header.php')
                                 </div>
                                 <div class="features-caption">
                                     <h3>Assured Delivery</h3>
-                                    <p>Assign trusted delivery agents for each sale</p>
+                                    <p>Assign trusted delivery agents for each delivery job</p>
                                 </div>
                             </div>
                         </div>

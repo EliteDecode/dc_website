@@ -217,8 +217,8 @@ include('includes/header.php')
                                     <a href="#" style="color: #fff">Sell more and stand apart from the competition</a>
                                 </h4>
                                 <p style="color: #ffffff">
-                                    Hit goals and drive up sales. Automate your business, push
-                                    your products to market faster. Be ahead of your
+                                    Hit goals and drive up sales. Automate your business,
+                                    push your products to market faster. Get ahead of your
                                     competition
                                 </p>
                             </div>
@@ -271,8 +271,8 @@ include('includes/header.php')
                                     <a href="#" style="color: #fff">Build a loyal customer base</a>
                                 </h4>
                                 <p style="color: #fff">
-                                    Keep customers coming back for more, when you use our
-                                    platform to run your business.
+                                    Know your customers and enjoy repeating business, when you use our platform to
+                                    run your business
                                 </p>
                             </div>
                         </div>
@@ -341,8 +341,8 @@ include('includes/header.php')
                                     <a href="#" style="color: #fff">Connect with new customers and increase earnings</a>
                                 </h4>
                                 <p style="color: #fff">
-                                    Connect to new potential customers near you and increase
-                                    earnings of your business.
+                                    Connect with customers and increase your
+                                    earnings.
                                 </p>
                             </div>
                         </div>

@@ -23,13 +23,38 @@ include('includes/header.php')
                         <div class="col-xl-6 col-lg-6 col-md-6">
                             <div class="single-features mb-70">
                                 <div class="features-icon">
-                                    <span class="flaticon-support" style="background: #6e4e8c"></span>
+                                    <span class="flaticon-support" style="
+                          background: rgb(46, 49, 146);
+                          background: linear-gradient(
+                            90deg,
+                            rgba(46, 49, 146, 1) 0%,
+                            rgba(110, 78, 140, 1) 100%
+                          );
+                        "></span>
                                 </div>
                                 <div class="features-caption">
-                                    <h3>Easy to Costomize</h3>
+                                    <h3>Live Tracking</h3>
+                                    <p>You can now, in real time track your deliveries</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="single-features mb-70">
+                                <div class="features-icon">
+                                    <span class="flaticon-support" style="
+                          background: rgb(46, 49, 146);
+                          background: linear-gradient(
+                            90deg,
+                            rgba(46, 49, 146, 1) 0%,
+                            rgba(110, 78, 140, 1) 100%
+                          );
+                        "></span>
+                                </div>
+                                <div class="features-caption">
+                                    <h3>Deliveries on your terms</h3>
                                     <p>
-                                        Aorem psum olorsit amet ectetur adipiscing elit, sed
-                                        dov.
+                                        Find the best delivery providers and the best prices
+                                        that fit your budget.
                                     </p>
                                 </div>
                             </div>
@@ -37,27 +62,20 @@ include('includes/header.php')
                         <div class="col-xl-6 col-lg-6 col-md-6">
                             <div class="single-features mb-70">
                                 <div class="features-icon">
-                                    <span class="flaticon-support" style="background: #2e3192"></span>
-                                </div>
-                                <div class="features-caption">
-                                    <h3>Extreme Security</h3>
-                                    <p>
-                                        Aorem psum olorsit amet ectetur adipiscing elit, sed
-                                        dov.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-md-6">
-                            <div class="single-features mb-70">
-                                <div class="features-icon">
-                                    <span class="flaticon-support" style="background: #6e4e8c"></span>
+                                    <span class="flaticon-support" style="
+                          background: rgb(46, 49, 146);
+                          background: radial-gradient(
+                            circle,
+                            rgba(46, 49, 146, 1) 0%,
+                            rgba(110, 78, 140, 1) 100%
+                          );
+                        "></span>
                                 </div>
                                 <div class="features-caption">
                                     <h3>Customer Support</h3>
                                     <p>
-                                        Aorem psum olorsit amet ectetur adipiscing elit, sed
-                                        dov.
+                                        A personalized, competent, and proactive
+                                        customer support system working for every customer
                                     </p>
                                 </div>
                             </div>
@@ -65,13 +83,20 @@ include('includes/header.php')
                         <div class="col-xl-6 col-lg-6 col-md-6">
                             <div class="single-features mb-70">
                                 <div class="features-icon">
-                                    <span class="flaticon-support" style="background: #2e3192"></span>
+                                    <span class="flaticon-support" style="
+                          background: rgb(46, 49, 146);
+                          background: radial-gradient(
+                            circle,
+                            rgba(46, 49, 146, 1) 0%,
+                            rgba(110, 78, 140, 1) 100%
+                          );
+                        "></span>
                                 </div>
                                 <div class="features-caption">
-                                    <h3>Creative Design</h3>
+                                    <h3>Quality Service</h3>
                                     <p>
-                                        Aorem psum olorsit amet ectetur adipiscing elit, sed
-                                        dov.
+                                        Rate riders to ensure only the best quality is being
+                                        provided to you and other customers.
                                     </p>
                                 </div>
                             </div>

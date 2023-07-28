@@ -13,8 +13,9 @@
                             <div class="footer-tittle">
                                 <div class="footer-pera">
                                     <p class="info1">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                                        sed do eiusmod tempor incididunt ut labore.
+                                        Introducing Delivery Connect, the solution that helps you
+                                        select the best logistics company and the best price in
+                                        your area backed with courteous customer support.
                                     </p>
                                 </div>
                             </div>
@@ -40,7 +41,7 @@
                                 <h4>Support</h4>
                                 <ul>
                                     <li><a href="#">Report a bug</a></li>
-                                    <li><a href="legal.html">Legal Informations</a></li>
+                                    <li><a href="legal.php">Legal Informations</a></li>
                                     <!-- <li><a href="#">Sitemap</a></li> -->
                                     <li><a href="#">FAQs</a></li>
                                 </ul>
@@ -50,10 +51,8 @@
                     <div class="col-lg-3 col-md-6 col-sm-8">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
-                                <h4>Newsletter</h4>
-                                <div class="footer-pera footer-pera2">
-                                    <p>Heaven fruitful doesn't over lesser in days. Appear</p>
-                                </div>
+                                <h4>Subscribe to our Newsletter</h4>
+
                                 <!-- Form -->
                                 <div class="footer-form">
                                     <div id="mc_embed_signup">
@@ -143,6 +142,15 @@
 <!-- Jquery Plugins, main Jquery -->
 <script src="./assets/js/plugins.js"></script>
 <script src="./assets/js/main.js"></script>
+<script>
+function goToTop() {
+    window.scroll({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+    });
+}
+</script>
 </body>
 
 </html>
